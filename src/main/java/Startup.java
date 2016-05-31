@@ -16,7 +16,6 @@ public class Startup {
     private static final Logger logger = LoggerFactory.getLogger(Startup.class);
 
     public static void main(String[] args) throws Exception {
-
         Startup startup = new Startup();
 
         Stat stat = startup.getStat();
@@ -33,7 +32,6 @@ public class Startup {
     }
 
     private Stat getStat() throws InterruptedException {
-
         if (logger.isInfoEnabled()) {
             logger.info("初始化数据及任务");
         }
