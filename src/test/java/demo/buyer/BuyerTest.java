@@ -27,7 +27,6 @@ public class BuyerTest {
     public void after() {
     }
 
-
     @Test
     public void test() throws Exception {
         MockOrderCreatedHandler createdHandler = new MockOrderCreatedHandler();

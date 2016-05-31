@@ -38,7 +38,7 @@ public class Buyer implements Runnable {
     private OrderCreatedListener createdListener = null;
 
     /**
-     * 订单id产生器
+     * 订单id生成器
      */
     private AtomicInteger orderIdGenerator = new AtomicInteger(0);
 

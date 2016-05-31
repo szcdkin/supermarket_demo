@@ -55,7 +55,6 @@ public class Startup {
             }
         }));
 
-
         if (logger.isInfoEnabled()) {
             logger.info("启动收银台及购买任务");
         }
@@ -70,7 +69,6 @@ public class Startup {
 
         // 启动购买任务
         new Thread(buyer, "buy-1").start();
-
 
         if (logger.isInfoEnabled()) {
             logger.info("等持任务执行完毕");
@@ -94,7 +92,6 @@ public class Startup {
 
         // 卖完时间
         long soldOut = System.currentTimeMillis();
-
 
         if (logger.isInfoEnabled()) {
             logger.info("汇总结果数据");
