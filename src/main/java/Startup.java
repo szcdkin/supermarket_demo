@@ -13,7 +13,7 @@ import java.util.List;
 
 public class Startup {
 
-    static final Logger logger = LoggerFactory.getLogger(Startup.class);
+    private static final Logger logger = LoggerFactory.getLogger(Startup.class);
 
     public static void main(String[] args) throws Exception {
 
